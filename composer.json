@@ -1,0 +1,20 @@
+{
+    "name": "dazzlesoftware/compat",
+    "type": "library",
+    "description": "Dazzle Compat Package",
+    "keywords": ["dazzle", "framework", "compat"],
+    "homepage": "https://github.com/dazzle-framework/compat",
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "php": "^7.3.0"
+    },
+    "require-dev": {
+        "dazzlesoftware/dazzle-coding-standard": "^1.0",
+    },
+    "autoload": {
+        "classmap": [
+            "src/JsonSerializable.php",
+            "src/CallbackFilterIterator.php"
+        ]
+    }
+}
